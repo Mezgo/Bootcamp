@@ -1,12 +1,12 @@
 /*Nombres de campos*/
-use henry_m3;
-ALTER TABLE `calendario` CHANGE `id` `IdFecha` INT(11) NOT NULL;
-ALTER TABLE `cliente` CHANGE `ID` `IdCliente` INT(11) NOT NULL;
-ALTER TABLE `empleado` CHANGE `IDEmpleado` `IdEmpleado` INT(11) NOT NULL;
-ALTER TABLE `proveedor` CHANGE `IDProveedor` `IdProveedor` INT(11) NOT NULL;
-ALTER TABLE `sucursal` CHANGE `ID` `IdSucursal` INT(11) NOT NULL;
+use m3;
+-- ALTER TABLE `calendario` CHANGE `id` `IdFecha` INT(11) NOT NULL;
+-- ALTER TABLE `cliente` CHANGE `ID` `IdCliente` INT(11) NOT NULL;
+-- ALTER TABLE `empleado` CHANGE `IDEmpleado` `IdEmpleado` INT(11) NOT NULL;
+-- ALTER TABLE `proveedor` CHANGE `IDProveedor` `IdProveedor` INT(11) NOT NULL;
+-- ALTER TABLE `sucursal` CHANGE `ID` `IdSucursal` INT(11) NOT NULL;
 ALTER TABLE `tipo_gasto` CHANGE `Descripcion` `Tipo_Gasto` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci NOT NULL;
-ALTER TABLE `producto` CHANGE `IDProducto` `IdProducto` INT(11) NOT NULL;
+-- ALTER TABLE `producto` CHANGE `IDProducto` `IdProducto` INT(11) NOT NULL;
 ALTER TABLE `producto` CHANGE `Concepto` `Producto` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci NULL DEFAULT NULL;
 
 select * from producto;
@@ -22,7 +22,7 @@ SELECT * FROM `cliente`;
 ALTER TABLE `cliente` DROP `Y`;
 ALTER TABLE `cliente` DROP `X`;
 
-ALTER TABLE `empleado` ADD `Salario` DECIMAL(10,2) NOT NULL DEFAULT '0' AFTER `Salario2`;
+ALTER TABLE `empleado` ADD `Salario2` DECIMAL(10,2) NOT NULL DEFAULT '0' AFTER `Salario`;
 UPDATE `empleado` SET Salario = REPLACE(Salario2,',','.');
 ALTER TABLE `empleado` DROP `Salario2`;
 

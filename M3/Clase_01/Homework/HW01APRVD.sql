@@ -1,6 +1,6 @@
--- DROP DATABASE henry_m3;
-CREATE DATABASE IF NOT EXISTS henry_m3;
-USE henry_m3;
+-- DROP DATABASE M3;
+-- CREATE DATABASE IF NOT EXISTS M3;
+USE M3_2;
 
 /*Catalogo de funciones y procedimientos*/
 SET GLOBAL log_bin_trust_function_creators = 1;
@@ -61,7 +61,7 @@ END$$
 DELIMITER ;
 
 /*Importacion de las tablas*/
-DROP TABLE IF EXISTS `gasto`;
+/*DROP TABLE IF EXISTS `gasto`;
 CREATE TABLE IF NOT EXISTS `gasto` (
   	`IdGasto` 		INTEGER,
   	`IdSucursal` 	INTEGER,
@@ -205,7 +205,7 @@ CREATE TABLE IF NOT EXISTS sucursal (
 -- INTO TABLE sucursal
 -- FIELDS TERMINATED BY ';' ENCLOSED BY '\"' ESCAPED BY '\"' 
 -- LINES TERMINATED BY '\n' IGNORE 1 LINES;
-
+*/
 /*Se genera la dimension calendario*/
 DROP TABLE IF EXISTS `calendario`;
 CREATE TABLE calendario (

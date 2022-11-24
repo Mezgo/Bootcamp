@@ -60,32 +60,32 @@ Las técnicas de preparación son obligatorias para la incorporación de nuevos 
 * Limpieza del ruido
 * Transformación
 * Imputación de valores faltantes.
-#### Integración de los datos
+#### __Integración de los datos__
 Todos los datos recopilados se recolectan y agrupan con el fin de establecerlos en un formato tabular. 
 
-#### Limpieza de los datos
+#### __Limpieza de los datos__
 Aquí lo que se hace es ceparar los datos que son importantes para el modelo y el negocio de aquellos que no lo son. 
 
-#### Normalización
+#### __Normalización__
 Se hace la búsqueda de los datos que hacen referencia a la misma cosa pero que tienen notaciones distintas entre si y establecer un estandar para cada caso en el que sea necesaria la normalización. 
 
-#### Imputación de valores faltantes
+#### __Imputación de valores faltantes__
 Se refiere a identificar los valores faltantes presentes en los datos, con el fin de someterlos a un proceso de reconstrucción.
 
-#### Transformación de datos
+#### __Transformación de datos__
 
 Se refiere a la serie de transformaciones a la que son sometidos los datos para que puedan ser ingestados dentro de la base de datos. 
 
-#### Modelado de datos
+#### __Modelado de datos__
 
 Realización del MER con la información depurada. 
 
-#### Reportes y visualización
+#### __Reportes y visualización__
 
 Una vez realizado el MER, se pueden realizar las visualizaciónes de las interacciones entre los datos. 
 
 
-#### Claves subrogadas
+#### __Claves subrogadas__
 
 Es un identificador único que se asigna a cada registro de una tabla. Se puede obtener a partir de la combinación de varios campos presentes en la tabla.
 
