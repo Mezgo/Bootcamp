@@ -16,6 +16,19 @@ Como veníamos viendo, en el aprendizaje supervisado tenemos tres pasos indispen
 
 El fundamento de los dos modelos que veremos en esta clase está bien diferenciado. El árbol de decisión busca encontrar en los datos preguntas que le permitan clasificar nuevas instancias a partir de los valores de algunas de sus propiedades. Vecinos más cercanos, por su parte, define las etiquetas viendo las instancias de entrenamiento más parecidas a la instancia que queremos clasificar.
 
+## Regresion logistica
+
+se busca clasificar resultados ***dicotomicos*** 
+
+### Funcion Sigmoidal
+
+su dominio se extiende por todos los reales pero su rango se contiene entre 1 y 0. *Es una probabilidad*
+$P = (e**y) / 1 + e**y$
+
+### Odds
+
+es una razon determina la probabilidad de que pase el evento que se estudia. toma numeros > 0
+
 ---
 
 ## **`Árboles de decisión`**

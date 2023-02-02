@@ -1,0 +1,11 @@
+#ignoring the csv
+*.csv
+
+#ignoring the compressed files
+*.zip
+*.rar
+*.tar.gz
+*.tar.xz
+
+#ignoring that annoing DS_Store
+*.DS_Store

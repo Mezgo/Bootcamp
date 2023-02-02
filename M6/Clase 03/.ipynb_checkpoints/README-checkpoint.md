@@ -13,12 +13,11 @@ La siguiente clase versará sobre los siguientes ejes:
 + `Sesgo y varianza`
 
 + `Parametros/hiperparámetros`
- 
- 
+
 - - -
 
 ## **Balanceo de dataset**
-
+sdfggfrfdfs
 Comencemos por el primero de ellos. Como siempre, tenemos un [video](https://www.youtube.com/watch?v=TJJOz6thSfk&ab_channel=AprendeIAconLigdiGonzalez) para recomendarles antes de abordar de lleno la temática y que les puede ser de utilidad. 
 
 En determinadas ocasiones, nos enfrentaremos a datasets que están desbalanceados. Esto significa que habrá una prevalencia de una clase por sobre otra. Pensemos en un dataset que contenga transacciones fraudulentas con tarjetas de crédito. Como la gran mayoría de las operaciones no corresponden a esa categoría, tendremos -en términos relativos- una subrepresentación de esta clase.
