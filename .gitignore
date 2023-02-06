@@ -9,3 +9,7 @@
 
 #ignoring that annoing DS_Store
 *.DS_Store
+
+#ignoring folders
+/Datasets
+
